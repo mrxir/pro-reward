@@ -1,0 +1,6 @@
+framework module Pods_rewardTests {
+  umbrella header "Pods-rewardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

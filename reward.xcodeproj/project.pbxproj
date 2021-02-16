@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		487C48A557BC8BB0B9731D62 /* Pods_rewardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A95BAF48549089206722CF /* Pods_rewardTests.framework */; };
 		4E4182AB25DC606200DF92D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4182AA25DC606200DF92D7 /* AppDelegate.m */; };
 		4E4182AE25DC606200DF92D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4182AD25DC606200DF92D7 /* SceneDelegate.m */; };
 		4E4182B125DC606200DF92D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4182B025DC606200DF92D7 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		4E4182BC25DC606300DF92D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4182BB25DC606300DF92D7 /* main.m */; };
 		4E4182C625DC606300DF92D7 /* rewardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4182C525DC606300DF92D7 /* rewardTests.m */; };
 		4E4182D125DC606300DF92D7 /* rewardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4182D025DC606300DF92D7 /* rewardUITests.m */; };
+		A84DDD1CA63B4B82A0DFD074 /* Pods_reward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C36DC08B4E76C23AFDF1FCE /* Pods_reward.framework */; };
+		C6049D66F85C13E36F28FEC2 /* Pods_reward_rewardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D64CC2DC0C2B8CFF6143768 /* Pods_reward_rewardUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13654809D6A54B0216472A85 /* Pods-reward-rewardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reward-rewardUITests.release.xcconfig"; path = "Target Support Files/Pods-reward-rewardUITests/Pods-reward-rewardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1732D1163A11CC5026E1B7B4 /* Pods-reward-rewardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reward-rewardUITests.debug.xcconfig"; path = "Target Support Files/Pods-reward-rewardUITests/Pods-reward-rewardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C36DC08B4E76C23AFDF1FCE /* Pods_reward.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reward.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4182A625DC606200DF92D7 /* reward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4182A925DC606200DF92D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E4182AA25DC606200DF92D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		4E4182CC25DC606300DF92D7 /* rewardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rewardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4182D025DC606300DF92D7 /* rewardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rewardUITests.m; sourceTree = "<group>"; };
 		4E4182D225DC606300DF92D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D64CC2DC0C2B8CFF6143768 /* Pods_reward_rewardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reward_rewardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C13C0411DFED9B5B6B1A63 /* Pods-rewardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardTests.release.xcconfig"; path = "Target Support Files/Pods-rewardTests/Pods-rewardTests.release.xcconfig"; sourceTree = "<group>"; };
+		7ECEA4B617D6B825F5A0E5E3 /* Pods-rewardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewardTests.debug.xcconfig"; path = "Target Support Files/Pods-rewardTests/Pods-rewardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		952351EA7B8AB7127B5F83BB /* Pods-reward.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reward.release.xcconfig"; path = "Target Support Files/Pods-reward/Pods-reward.release.xcconfig"; sourceTree = "<group>"; };
+		C0A95BAF48549089206722CF /* Pods_rewardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rewardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7593C48FB1BE5798E5C87AD /* Pods-reward.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reward.debug.xcconfig"; path = "Target Support Files/Pods-reward/Pods-reward.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84DDD1CA63B4B82A0DFD074 /* Pods_reward.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487C48A557BC8BB0B9731D62 /* Pods_rewardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6049D66F85C13E36F28FEC2 /* Pods_reward_rewardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CB04696FF4D328F9EDB09FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7593C48FB1BE5798E5C87AD /* Pods-reward.debug.xcconfig */,
+				952351EA7B8AB7127B5F83BB /* Pods-reward.release.xcconfig */,
+				1732D1163A11CC5026E1B7B4 /* Pods-reward-rewardUITests.debug.xcconfig */,
+				13654809D6A54B0216472A85 /* Pods-reward-rewardUITests.release.xcconfig */,
+				7ECEA4B617D6B825F5A0E5E3 /* Pods-rewardTests.debug.xcconfig */,
+				77C13C0411DFED9B5B6B1A63 /* Pods-rewardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4E41829D25DC606200DF92D7 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,8 @@
 				4E4182C425DC606300DF92D7 /* rewardTests */,
 				4E4182CF25DC606300DF92D7 /* rewardUITests */,
 				4E4182A725DC606200DF92D7 /* Products */,
+				0CB04696FF4D328F9EDB09FF /* Pods */,
+				8D627E146FBB9ABDB136BEEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +167,16 @@
 			path = rewardUITests;
 			sourceTree = "<group>";
 		};
+		8D627E146FBB9ABDB136BEEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C36DC08B4E76C23AFDF1FCE /* Pods_reward.framework */,
+				5D64CC2DC0C2B8CFF6143768 /* Pods_reward_rewardUITests.framework */,
+				C0A95BAF48549089206722CF /* Pods_rewardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E4182D525DC606300DF92D7 /* Build configuration list for PBXNativeTarget "reward" */;
 			buildPhases = (
+				1FB684987A58CA069649205D /* [CP] Check Pods Manifest.lock */,
 				4E4182A225DC606200DF92D7 /* Sources */,
 				4E4182A325DC606200DF92D7 /* Frameworks */,
 				4E4182A425DC606200DF92D7 /* Resources */,
@@ -161,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E4182D825DC606300DF92D7 /* Build configuration list for PBXNativeTarget "rewardTests" */;
 			buildPhases = (
+				D35352036D74D31FC793ECC9 /* [CP] Check Pods Manifest.lock */,
 				4E4182BD25DC606300DF92D7 /* Sources */,
 				4E4182BE25DC606300DF92D7 /* Frameworks */,
 				4E4182BF25DC606300DF92D7 /* Resources */,
@@ -179,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E4182DB25DC606300DF92D7 /* Build configuration list for PBXNativeTarget "rewardUITests" */;
 			buildPhases = (
+				D4CC9EEEF5423780A35B4368 /* [CP] Check Pods Manifest.lock */,
 				4E4182C825DC606300DF92D7 /* Sources */,
 				4E4182C925DC606300DF92D7 /* Frameworks */,
 				4E4182CA25DC606300DF92D7 /* Resources */,
@@ -260,6 +303,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FB684987A58CA069649205D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reward-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35352036D74D31FC793ECC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rewardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CC9EEEF5423780A35B4368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reward-rewardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E4182A225DC606200DF92D7 /* Sources */ = {
@@ -375,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +550,7 @@
 		};
 		4E4182D625DC606300DF92D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7593C48FB1BE5798E5C87AD /* Pods-reward.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +569,7 @@
 		};
 		4E4182D725DC606300DF92D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952351EA7B8AB7127B5F83BB /* Pods-reward.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +588,7 @@
 		};
 		4E4182D925DC606300DF92D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECEA4B617D6B825F5A0E5E3 /* Pods-rewardTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +609,7 @@
 		};
 		4E4182DA25DC606300DF92D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C13C0411DFED9B5B6B1A63 /* Pods-rewardTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +630,7 @@
 		};
 		4E4182DC25DC606300DF92D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1732D1163A11CC5026E1B7B4 /* Pods-reward-rewardUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XAQEWW82JM;
@@ -532,6 +649,7 @@
 		};
 		4E4182DD25DC606300DF92D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13654809D6A54B0216472A85 /* Pods-reward-rewardUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XAQEWW82JM;

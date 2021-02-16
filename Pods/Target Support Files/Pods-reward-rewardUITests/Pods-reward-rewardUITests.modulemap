@@ -1,0 +1,6 @@
+framework module Pods_reward_rewardUITests {
+  umbrella header "Pods-reward-rewardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
