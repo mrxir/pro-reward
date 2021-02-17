@@ -7,6 +7,10 @@ target 'reward' do
   use_frameworks!
 
   # Pods for reward
+  
+  # QMUI iOS——致力于提高项目 UI 开发效率的解决方案 http://qmuiteam.com/ios
+  # https://qmuiteam.com/ios/get-started
+  pod 'QMUIKit'
 
   target 'rewardTests' do
     inherit! :search_paths
